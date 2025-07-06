@@ -62,18 +62,28 @@ function AllProducts({ children }) {
     setCart(storedCart.length);
   }, []);
 
+  useEffect(() => {
+    fetch("http://localhost:5000/data")
+      .then((res) => res.json())
+      .then((newData) => {
+        if (newData.length > 0) {
+          setData((prev) => [...prev, ...newData]); // Merge backend data
+        }
+      });
+  }, []);
 
-   let [PageNotFounds, setPageNotFounds] = useState(false)
-    let { pathname } = useLocation()
-    if (pathname == "/" || pathname == "/cart" || pathname == "/shop" || pathname == "/contact" || pathname == "/about") {
-        useEffect(() => {
-            setPageNotFounds(true)
-        }, [pathname])
-    } else {
-        useEffect(() => {
-            setPageNotFounds(false)
-        }, [])
-    }
+
+  let [PageNotFounds, setPageNotFounds] = useState(false)
+  let { pathname } = useLocation()
+  if (pathname == "/" || pathname == "/cart" || pathname == "/shop" || pathname == "/contact" || pathname == "/about") {
+    useEffect(() => {
+      setPageNotFounds(true)
+    }, [pathname])
+  } else {
+    useEffect(() => {
+      setPageNotFounds(false)
+    }, [])
+  }
 
   let information = {
     data,

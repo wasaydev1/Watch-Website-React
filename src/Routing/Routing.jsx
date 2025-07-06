@@ -7,6 +7,7 @@ import Section2 from '../section2/Section2'
 import Section3 from '../section3/Section3'
 import Section4 from '../section4/Section4'
 import PageNotFound from '../PageNotFound'
+import AdminPanel from '../AdminPanel'
 
 const Routing = () => {
 
@@ -18,6 +19,7 @@ const Routing = () => {
                 <Route path="/shop" element={<Section2 />} />
                 <Route path="/about" element={<Section3 />} />
                 <Route path="/contact" element={<Section4 />} />
+                <Route path="/admin/adminPanel" element={<AdminPanel />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
         

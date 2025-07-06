@@ -35,7 +35,7 @@ const PopularWatch = () => {
                 </p>
             </div>
             <div className='flex flex-wrap justify-center items-center gap-8'>
-                {data.map((items, index) => {
+                {data.slice(0,6).map((items, index) => {
                     return (
                         <div key={index} className='flex flex-col gap-4 justify-center items-center'>
                             <div className="sixProductShow h-120 relative w-100 overflow-hidden bg-gray-200 flex-col flex justify-center items-center">
