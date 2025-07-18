@@ -1,1 +1,26 @@
-"# Watch Website" 
+# Watch Website
+
+This is a modern and responsive Watch Website built using HTML, CSS, and JavaScript. The website showcases various watch collections with a clean design and smooth user experience.
+
+## Features
+
+- Responsive layout for all screen sizes
+- Product cards with images and descriptions
+- Navigation menu with smooth scrolling
+- Modern and elegant UI design
+- Interactive animations and hover effects
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (react)
+- Express.js
+
+## Getting Started
+
+## npm run dev
+
+
+To run this project locally:
+
