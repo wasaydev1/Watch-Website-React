@@ -1,6 +1,6 @@
 # Watch Website
 
-This is a modern and responsive Watch Website built using HTML, CSS, and JavaScript. The website showcases various watch collections with a clean design and smooth user experience.
+This is a modern and responsive Watch Website built using HTML, CSS, React.Js , Redux Toolkit and Express.Js . The website showcases various watch collections with a clean design and smooth user experience.
 
 ## Features
 
@@ -16,6 +16,8 @@ This is a modern and responsive Watch Website built using HTML, CSS, and JavaScr
 - CSS3  
 - JavaScript (react)
 - Express.js
+- Redux Toolkit 
+
 
 ## Getting Started
 
