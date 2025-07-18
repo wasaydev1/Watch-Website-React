@@ -21,7 +21,8 @@ This is a modern and responsive Watch Website built using HTML, CSS, React.Js , 
 
 ## Getting Started
 
-## npm run dev
+-## npm i 
+-## npm run dev
 
 
 To run this project locally:
