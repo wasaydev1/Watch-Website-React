@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.addtocardsec-1{
+    background: #E62E2D;
+    border-radius: 50%;
+    padding-inline: 6px;
+    right: 0;
+    color: white;
+    
+}
+
+.section2Image {
+    overflow: hidden;
+}
+.section2Image img{
+    transition: all 0.3s ease;
+
+}
+.section2Image img:hover{
+    transform: scale(1.1);
+}
+.section2Image div:nth-child(2) > img{
+    transform: scale(1.1);
+}
+.section2Image div:nth-child(2):hover > img{
+    transform: scale(1.2);
+}
+.section2Image .ThermoBall{
+    color: #444444;
+}
+.section2Image .descSec2{
+    color: #E62E36;
+}
+
+.WatchGrid{
+    transition: all 0.3s ease;
+}
+.WatchGrid:hover{
+    transform: scale(0.95);
+}
+.Popularwatch{
+    color: #E62E2D;
+}
+
+.expenseWatch{
+    opacity: 0;
+    bottom: -100px;
+    transition: all 0.4s ease-in-out;
+    background-color: #E62E2D;
+}
+.sixProductShow:hover .expenseWatch{
+    bottom: 0px;
+    opacity: 1;
+}
+.sixProductShow img{
+    border-bottom:3px solid #E62E2D;    
+}
+
+.expensPrice{
+    color: #E62E2D;
+    font-size: 20px;
+    font-weight: 600;
+}
+.expensviewmoreproducts{
+    height: 300px;
+}
+.expensviewmoreproducts .link{
+    background-color: #E62E2D;
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ShopProduct{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+/* For the entire page */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #E5E7EB;
+  border-radius: 10px;
+}
+
+/* Thumb (scrollable part) */
+::-webkit-scrollbar-thumb {
+  background: #E62E2D;
+  border-radius: 10px;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+
+
+
+/* Sec1-img */
+
+.Sec1-img{
+    overflow: hidden;
+    animation: zoominout 2s ease-in-out infinite alternate ;
+}
+
+@keyframes zoominout {
+    0%{
+        transform: scale(1 , 1);
+    }100%{
+        transform: scale(0.9 , 0.9);
+    }
+}
