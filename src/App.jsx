@@ -1,7 +1,7 @@
 import Navbar from './section-1/Navbar';
 import Routing from './Routing/Routing';
 import { Toaster } from 'react-hot-toast';
-import Sec1Footer from './section-1/sec1Footer';
+import Sec1Footer from './section-1/Sec1Footer';
 import TopScroll from './Routing/TopScroll';
 import { useContext } from 'react';
 import { products } from './Context/ContextApi';
