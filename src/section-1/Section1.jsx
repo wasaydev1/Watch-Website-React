@@ -5,7 +5,7 @@ import NewArrivals from './NewArrivals'
 import WatchOfChoice from './WatchOfChoice'
 import WatchOfChoice2 from './WatchOfChoice2'
 import FeatureSectionReactIcons from './FeatureCardReactIcons'
-import Sec1Footer from './sec1Footer'
+
 
 const Section1 = () => {
   return (
