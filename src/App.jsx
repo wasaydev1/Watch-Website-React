@@ -1,28 +1,23 @@
-import Navbar from './section-1/Navbar';
-import Routing from './Routing/Routing';
-import { Toaster } from 'react-hot-toast';
-import TopScroll from './Routing/TopScroll';
-import { useContext } from 'react';
-import { products } from './Context/ContextApi';
-import Sec1Footer from './section-1/Sec1Footer';
+import Navbar from "./section-1/Navbar";
+import Routing from "./Routing/Routing";
+import { Toaster } from "react-hot-toast";
+import TopScroll from "./Routing/TopScroll";
+import { useContext } from "react";
+import { products } from "./Context/ContextApi";
+import Sec1Footer from "./section-1/Sec1Footer";
 
 function App() {
-      let {PageNotFounds}  = useContext(products)
-      console.log(PageNotFounds);
-      
-
+  let { PageNotFounds } = useContext(products);
+  console.log(PageNotFounds);
 
   return (
     <>
-      <Toaster
-        position="top-right"
-        reverseOrder={true}
-      />
+      <Toaster position="top-right" reverseOrder={true} />
       {PageNotFounds == true ? <Navbar /> : null}
       <Routing />
       <TopScroll />
-      
-      {PageNotFounds == true ?  <Sec1Footer /> : null}
+
+      {PageNotFounds == true ? <Sec1Footer /> : null}
     </>
   );
 }

@@ -64,10 +64,10 @@ const Sec1Footer = () => {
                     {/* Copyright Text */}
                     <div className="mb-4 md:mb-0 text-center md:text-left text-base">
                         <p>
-                            Copyright ©2025 All rights reserved | This template is made with{' '}
+                            Copyright ©2025 All rights reserved | This Website made {' '}
                             <span className="text-red-500">❤️</span> by{' '}
                             {/* For external links like Colorlib, keep <a> tag */}
-                            <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">Wasay</a>
+                            <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">Abdul Wasay</a>
                         </p>
                     </div>
 
