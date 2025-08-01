@@ -28,3 +28,4 @@ This is a modern and responsive Watch Website built using HTML, CSS, React.Js , 
 To run this project locally:
 
 "# Watch-Website-React.js" 
+"# Watch-Website-React" 
